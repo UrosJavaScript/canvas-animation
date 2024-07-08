@@ -130,7 +130,7 @@ function animate() {
 // Pozivanje animacije
 animate();
 
-// Prekini default behavior formulara ili drugih elemenata koji mogu izazvati reload
+
 document.addEventListener("submit", (event) => {
   event.preventDefault();
   console.log("Prevented default form submit behavior");
