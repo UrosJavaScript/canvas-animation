@@ -175,5 +175,4 @@ function resetSector(index) {
 
 document.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("Prevented default form submit behavior");
 });

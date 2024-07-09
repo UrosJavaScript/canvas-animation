@@ -130,8 +130,6 @@ function animate() {
 // Pozivanje animacije
 animate();
 
-
 document.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("Prevented default form submit behavior");
 });
